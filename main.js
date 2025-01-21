@@ -1,4 +1,4 @@
-let APP_ID = "804396e4147c4f098c447397bd953d58";
+let APP_ID = process.env.APP_ID;
 let token = null;
 let uid = String(Math.floor(Math.random() * 10000));
 
